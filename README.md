@@ -17,7 +17,7 @@ Hearing-to-Deaf (The USP): Translates spoken audio into grammatically correct Si
 
 Deaf-to-Hearing: Uses computer vision to track hand gestures and converts them into spoken speech.
 
-🚀** Key Features**
+🚀Key Features
 🗣️ Real-Time Speech-to-Sign: Converts spoken English into ISL/ASL Gloss (Sign Language Grammar) using an LLM, not just word-for-word translation.
 
 🤖 3D Neural Avatar: A WebGL-based avatar (Ready Player Me) that performs signs seamlessly.
