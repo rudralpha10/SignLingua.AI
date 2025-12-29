@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+The Problem
+Most "accessibility" tools for the Deaf community are one-way streets. They focus on translating Sign Language into Text for hearing people. However, they ignore the reverse loop:
 
-# Run and deploy your AI Studio app
+Text is not the native language of the Deaf. Many Deaf individuals prefer Sign Language over reading English text.
 
-This contains everything you need to run your app locally.
+Lack of Emotion. Text captures words, but Sign Language relies heavily on facial expressions and body language ("Non-Manual Markers").
 
-View your app in AI Studio: https://ai.studio/apps/drive/1T4LSf4z0FUkWXO1t9QYO15aEaW5giI5h
+The Communication Loop is Broken. A hearing person cannot "sign back" without years of training.
 
-## Run Locally
+💡 The Solution
+Sign-Bridge is a bi-directional communication platform.
 
-**Prerequisites:**  Node.js
+Hearing-to-Deaf (The USP): Translates spoken audio into grammatically correct Sign Language (Gloss) performed by a hyper-realistic 3D Avatar with facial expressions.
 
+Deaf-to-Hearing: Uses computer vision to track hand gestures and converts them into spoken speech.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+🚀 Key Features
+🗣️ Real-Time Speech-to-Sign: Converts spoken English into ISL/ASL Gloss (Sign Language Grammar) using an LLM, not just word-for-word translation.
+
+🤖 3D Neural Avatar: A WebGL-based avatar (Ready Player Me) that performs signs seamlessly.
+
+😊 Sentiment & Emotion Sync: If the speaker sounds happy or concerned, the Avatar's facial expressions change accordingly (Brows up, smiling, frowning).
+
+🏥 Medical/Emergency Mode: A high-accuracy mode for doctors and patients with pre-loaded, critical medical vocabulary.
+
+⚡ Latency Optimized: Built on Groq/Deepgram for near-instant response times.
