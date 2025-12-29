@@ -1,0 +1,8 @@
+{
+  "name": "SignLingua AI",
+  "description": "A two-way sign language translator using Gemini AI, 3D Avatars, and Computer Vision.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
